@@ -1,0 +1,269 @@
+@media only screen and (min-width: 460px) and (max-width: 1024px) {
+    body {
+        background-image: linear-gradient(to top, rgba(50, 0, 100, 0.9), rgba(50, 0, 100, 0.9));
+    }
+
+    header {
+        width: auto;
+        height: 100px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    img {
+        width: 250px;
+        position: relative;
+        margin-top: 150px;
+        z-index: 1;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .pricing-card {
+        width: 400px;
+        height: 400px;
+        background-color: #1d1d1d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+        text-align: center;
+        transition: all 0.3s;
+        position: relative;
+        cursor: pointer;
+        margin: 20px auto;
+    }
+
+    .pricing-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px 0 rgba(29, 29, 29, 0.8);
+    }
+
+    .pricing-card h3 {
+        font-size: 24px;
+        margin: 40px 0 20px 0;
+        font-family: 'Unbounded', cursive;
+        color: #fff;
+    }
+
+    .pricing-card p {
+        font-size: 18px;
+        margin: 20px 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+    }
+
+    .pricing-card .price {
+        font-size: 36px;
+        color: #fff;
+        margin: 20px 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    }
+
+    .pricing-card button {
+        background-color: #320064d9;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        padding: 10px 20px;
+        font-size: 14px;
+        cursor: pointer;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .pricing-card button:hover {
+        background-color: #32006480;
+        box-shadow: 0px 0px 15px 7px rgba(245, 222, 179, 0.4);
+        transition: 0.5s;
+    }
+
+
+    .footer {
+        background: #320064;
+        padding: 30px 0px;
+        font-family: 'Play', sans-serif;
+        text-align: center;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+    }
+
+    .footer::-webkit-scrollbar {
+        display: none;
+    }
+
+    .footer .row {
+        width: 100%;
+        margin: 1% 0%;
+        /*padding:0.6% 0%;*/
+        color: gray;
+        font-size: 0.8em;
+    }
+
+    .footer .row a {
+        text-decoration: none;
+        color: gray;
+        transition: 0.5s;
+    }
+
+    .footer .row a:hover {
+        color: #fff;
+    }
+
+    .footer .row ul {
+        width: 100%;
+    }
+
+    .footer .row ul li {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+
+    .footer .row a i {
+        font-size: 2em;
+        margin: 0% 1%;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+
+
+    body {
+        background-image: linear-gradient(to top, rgba(50, 0, 100, 0.9), rgba(50, 0, 100, 0.9));
+    }
+
+    header {
+        width: auto;
+        height: 100px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    img {
+        width: 250px;
+        position: relative;
+        margin-top: 150px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .pricing-card {
+        width: 300px;
+        height: 300px;
+        background-color: #1d1d1d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+        float: left;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.3s;
+        position: relative;
+        cursor: pointer;
+
+    }
+
+    .pricing-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px 0 rgba(29, 29, 29, 0.8);
+    }
+
+    .pricing-card h3 {
+        font-size: 24px;
+        margin: 40px 0 20px 0;
+        font-family: 'Unbounded', cursive;
+        color: #fff;
+    }
+
+    .pricing-card p {
+        font-size: 18px;
+        margin: 20px 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+    }
+
+    .pricing-card .price {
+        font-size: 36px;
+        color: #fff;
+        margin: 20px 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    }
+
+    .pricing-card button {
+        background-color: #320064d9;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        padding: 10px 20px;
+        font-size: 14px;
+        cursor: pointer;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .pricing-card button:hover {
+        background-color: #32006480;
+        box-shadow: 0px 0px 15px 7px rgba(245, 222, 179, 0.4);
+        transition: 0.5s;
+    }
+
+
+    .footer {
+        background: #320064;
+        padding: 30px 0px;
+        font-family: 'Play', sans-serif;
+        text-align: center;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+    }
+
+    .footer::-webkit-scrollbar {
+        display: none;
+    }
+
+    .footer .row {
+        width: 100%;
+        margin: 1% 0%;
+        /*padding:0.6% 0%;*/
+        color: gray;
+        font-size: 0.8em;
+    }
+
+    .footer .row a {
+        text-decoration: none;
+        color: gray;
+        transition: 0.5s;
+    }
+
+    .footer .row a:hover {
+        color: #fff;
+    }
+
+    .footer .row ul {
+        width: 100%;
+    }
+
+    .footer .row ul li {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+
+    .footer .row a i {
+        font-size: 2em;
+        margin: 0% 1%;
+    }
+}
